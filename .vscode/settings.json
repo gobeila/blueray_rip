@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"}, 
+        "**/__pycache__": true
+    },
+    "code-runner.executorMap": {
+        "python": "source /Users/alex/Code/blueray_rip/.venv/bin/activate && python -u"
+    }
+}

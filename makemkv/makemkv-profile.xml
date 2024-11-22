@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profile>
+    <name lang="eng">Custom</name>
+    <mkvSettings />
+    <profileSettings />
+    <outputSettings name="copy" outputFormat="directCopy">
+        <description lang="eng">Copy track as is</description>
+    </outputSettings>
+    <trackSettings input="default">
+        <output outputSettingsName="copy" 
+                defaultSelection="-sel:all,+sel:(fre|nolang|single),-sel:(havemulti|havecore),-sel:mvcvideo,=100:all,-10:favlang,-sel:subtitle,-sel:forced">
+        </output>
+    </trackSettings>
+</profile>

@@ -1,0 +1,4 @@
+
+makemkvcon -r info disc:9999
+makemkvcon -r --messages=-stdout --cache=1 info disc:0
+nohup makemkvcon -r mkv --decrypt --progress=progress.log --messages=-stdout disc:0 1 /media/tmp/ --profile test-profile.xml > output.log 2>&1 &
